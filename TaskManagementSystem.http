@@ -1,0 +1,10 @@
+@TaskManagementSystem_HostAddress = http://localhost:5154
+
+GET {{TaskManagementSystem_HostAddress}}/
+Accept: application/json
+
+HTTP/1.1 404  - Not Found
+content-length: 0
+connection: close
+date: Fri, 20 Feb 2026 02:42:17 GMT
+server: Kestrel
