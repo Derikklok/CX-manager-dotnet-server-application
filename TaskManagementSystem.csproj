@@ -19,12 +19,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Controllers\" />
     <Folder Include="Data\" />
     <Folder Include="DTOs\" />
     <Folder Include="DTOs\Users\" />
     <Folder Include="Mappings\" />
     <Folder Include="Repositories\" />
     <Folder Include="Repositories\interfaces\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\interfaces\" />
   </ItemGroup>
 
 </Project>

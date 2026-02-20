@@ -34,4 +34,10 @@ public class UserRepository : IUserRepository
             .AsNoTracking()
             .ToListAsync();
     }
+
+    public async Task<bool> EmailExistsAsync(string email)
+    {
+        return await _context.Users
+            .AnyAsync(u => u.Email.ToLower() == email.ToLower());
+    }
 }
